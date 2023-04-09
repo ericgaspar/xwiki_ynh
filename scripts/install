@@ -47,10 +47,6 @@ ynh_add_config --template="../conf/xwiki_env" --destination="$install_dir/xwiki_
 chmod 400 "$install_dir/xwiki_env"
 chown $app:$app "$install_dir/xwiki_env"
 
-pushd "$install_dir"
- 	./start_xwiki.sh -p $port
-popd
-
 #=================================================
 # GENERIC FINALIZATION
 #=================================================
