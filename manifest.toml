@@ -48,6 +48,8 @@ ram.runtime = "50M"
         sha256 = "42bb11563587860d2268f3226b90c6ae5cf5930e027fe0e3386fb2de29445a2b"
 
     [resources.ports]
+    main.default = 31386
+    stop.default = 31387
 
     [resources.system_user]
 
