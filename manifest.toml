@@ -5,17 +5,17 @@ name = "Xwiki"
 description.en = "Explain in *a few (10~15) words* the purpose of the app or what it actually does (it is meant to give a rough idea to users browsing a catalog of 100+ apps)"
 description.fr = "Expliquez en *quelques* (10~15) mots l'utilité de l'app ou ce qu'elle fait (l'objectif est de donner une idée grossière pour des utilisateurs qui naviguent dans un catalogue de 100+ apps)"
 
-version = "1.0~ynh1"
+version = "15.2~ynh1"
 
 maintainers = ["johndoe"]
 
 [upstream]
-license = "free"
-website = "https://example.com"
+license = "LGPL-2.1"
+website = "https://www.xwiki.org/"
 demo = "https://demo.example.com"
-admindoc = "https://www.xwiki.org/xwiki/bin/view/Documentation/AdminGuide/Installation/InstallationViaAPT/"
-userdoc = "https://yunohost.org/apps"
-code = "https://some.forge.com/example/example"
+admindoc = "https://www.xwiki.org/xwiki/bin/view/Documentation/AdminGuide/"
+userdoc = "https://www.xwiki.org/xwiki/bin/view/Documentation/UserGuide/"
+code = "https://github.com/xwiki/xwiki-platform"
 
 [integration]
 yunohost = ">= 11.1.17"
