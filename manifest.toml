@@ -53,7 +53,7 @@ ram.runtime = "50M"
     [resources.apt]
     packages = "mariadb-server"
 
-    extras.xwiki.repo = "deb http://maven.xwiki.org stable/"
+    extras.xwiki.repo = "deb [signed-by=/usr/share/keyrings/xwiki-keyring.gpg] http://maven.xwiki.org stable/"
     extras.xwiki.key = "https://maven.xwiki.org/xwiki-keyring.gpg"
     extras.xwiki.packages = "xwiki xwiki-tomcat9-mariadb"
 
