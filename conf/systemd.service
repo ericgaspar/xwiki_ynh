@@ -11,13 +11,7 @@ WorkingDirectory=__INSTALL_DIR__/
 ExecStart=/bin/bash start_xwiki.sh
 ExecStop=/bin/bash stop_xwiki.sh
 Restart=always
-# Restart service after 10 seconds if node service crashes
 RestartSec=10
-# Output to syslog
-StandardOutput=syslog
-StandardError=syslog
-SyslogIdentifier=xwiki
-
 
 [Install]
 WantedBy=multi-user.target
